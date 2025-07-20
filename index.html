@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Neon Portfolio</title>
+  <link rel="stylesheet" href="Umar.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Neon<span>DEV</span></div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Hi, I'm <span>Umar Khatab Malik</span><br>Web Developer</h1>
+      <p>I’m a creative full-stack developer dedicated to crafting seamless and dynamic user experiences across platforms. I transform ideas into polished web solutions using modern JavaScript frameworks, APIs, and powerful backend systems. Let's build the future, one line of code at a time.</p>
+      <a href="#contact" class="cta-button">Get In Touch</a>
+    </div>
+    <div class="profile-container">
+      <div class="profile-border"></div>
+      <div class="tech-icons">
+        <i class="tech-icon" style="top:0; left:50%; transform:translateX(-50%);"></i>
+        <i class="tech-icon" style="top:50%; right:0; transform:translateY(-50%);"></i>
+        <i class="tech-icon" style="bottom:0; left:50%; transform:translateX(-50%);"></i>
+        <i class="tech-icon" style="top:50%; left:0; transform:translateY(-50%);"></i>
+      </div>
+      <img src="profile.jpg" alt="Profile Picture" width="300px" class="profile-pic">
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>I’m a self-driven and passionate full-stack developer with 4 months of hands-on experience building, deploying, and optimizing responsive websites and apps. From writing efficient code to designing intuitive UI/UX interfaces, I handle projects end-to-end.</p>
+        <p>My expertise includes HTML5, CSS3, JavaScript, React, Node.js, and backend services like Express and Firebase. I love solving complex problems with clean code, and I’m always looking to push the boundaries of what’s possible in the browser.</p>
+        <p>Beyond tech, I enjoy collaborating with diverse teams, exploring virtual/augmented reality, and contributing to open-source projects that make the web a better place.</p>
+      </div>
+      <div class="skills">
+        <div class="skill-item">
+          <div class="skill-name"><span>JavaScript</span><span>95%</span></div>
+          <div class="skill-bar"><div class="skill-progress" style="width:95%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>React</span><span>90%</span></div>
+          <div class="skill-bar"><div class="skill-progress" style="width:90%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>Node.js</span><span>85%</span></div>
+          <div class="skill-bar"><div class="skill-progress" style="width:85%"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-name"><span>UI/UX Design</span><span>80%</span></div>
+          <div class="skill-bar"><div class="skill-progress" style="width:80%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2 class="section-title">My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="html.jpg" alt="Project 1" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">Neon Dashboard</h3>
+          <p class="project-description">A sleek admin dashboard with customizable widgets and real-time data visualization using React, Firebase, and D3.js.</p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">D3.js</span>
+            <span class="tech-tag">Firebase</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="html.jpg3.png" alt="Project 2" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">VR Portfolio</h3>
+          <p class="project-description">Step inside an immersive 3D portfolio using WebXR and Three.js. Interactive, animated, and future-forward for VR/AR enthusiasts.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Three.js</span>
+            <span class="tech-tag">WebXR</span>
+            <span class="tech-tag">GSAP</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="htmli.code.jpg" alt="Project 3" class="project-img">
+        <div class="project-info">
+          <h3 class="project-title">CodeCollab</h3>
+          <p class="project-description">Real-time collaborative code editor with video chat using WebRTC and Socket.io. Ideal for remote interviews and dev pair programming.</p>
+          <div class="project-tech">
+            <span class="tech-tag">Node.js</span>
+            <span class="tech-tag">Socket.io</span>
+            <span class="tech-tag">WebRTC</span>
+          </div>
+          <div class="project-links">
+            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+            <a href="#" class="project-link"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" style="flex-direction: column; text-align: center;">
+    <h2 class="section-title" style="margin-bottom: 2rem;">Get In Touch</h2>
+    <form class="contact-form">
+      <div class="form-group"><label for="name" class="form-label">Name</label><input type="text" id="name" class="form-input" required/></div>
+      <div class="form-group"><label for="email" class="form-label">Email</label><input type="email" id="email" class="form-input" required/></div>
+      <div class="form-group"><label for="subject" class="form-label">Subject</label><input type="text" id="subject" class="form-input" required/></div>
+      <div class="form-group"><label for="message" class="form-label">Message</label><textarea id="message" class="form-textarea" required></textarea></div>
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-links">
+      <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+    <p class="copyright">2025 NEONDEV. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
